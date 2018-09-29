@@ -126,10 +126,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="You can change the color of a progression tag by long-pressing it on the Progressions homepage." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pfl-zt-92D">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="You can change the color of a progression tag by long-pressing it on the Progressions homepage." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfl-zt-92D">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                    <edgeInsets key="layoutMargins" top="16" left="8" bottom="16" right="8"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -149,10 +149,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Feedback is loved! Please email with any issues, comments, ideas, or concerns." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iTs-vI-ny8">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Feedback is loved! Please email with any issues, comments, ideas, or concerns." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTs-vI-ny8">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                    <edgeInsets key="layoutMargins" top="16" left="8" bottom="16" right="8"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>

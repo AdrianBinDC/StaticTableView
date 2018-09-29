@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5546D88D215F0F0E00028D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546D88C215F0F0E00028D01 /* AppDelegate.swift */; };
-		5546D88F215F0F0E00028D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546D88E215F0F0E00028D01 /* ViewController.swift */; };
 		5546D892215F0F0E00028D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5546D890215F0F0E00028D01 /* Main.storyboard */; };
 		5546D894215F0F1100028D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5546D893215F0F1100028D01 /* Assets.xcassets */; };
 		5546D897215F0F1100028D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5546D895215F0F1100028D01 /* LaunchScreen.storyboard */; };
 		5546D8A2215F0F1100028D01 /* StaticTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546D8A1215F0F1100028D01 /* StaticTableViewTests.swift */; };
 		5546D8AD215F0F1100028D01 /* StaticTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546D8AC215F0F1100028D01 /* StaticTableViewUITests.swift */; };
+		5546D8BB215F0FC200028D01 /* StaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546D8BA215F0FC200028D01 /* StaticTableViewController.swift */; };
+		5546D8BD215F111D00028D01 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546D8BC215F111D00028D01 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		5546D889215F0F0E00028D01 /* StaticTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5546D88C215F0F0E00028D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5546D88E215F0F0E00028D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5546D891215F0F0E00028D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5546D893215F0F1100028D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5546D896215F0F1100028D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		5546D8A8215F0F1100028D01 /* StaticTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaticTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5546D8AC215F0F1100028D01 /* StaticTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewUITests.swift; sourceTree = "<group>"; };
 		5546D8AE215F0F1100028D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5546D8BA215F0FC200028D01 /* StaticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewController.swift; sourceTree = "<group>"; };
+		5546D8BC215F111D00028D01 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				5546D88C215F0F0E00028D01 /* AppDelegate.swift */,
-				5546D88E215F0F0E00028D01 /* ViewController.swift */,
 				5546D890215F0F0E00028D01 /* Main.storyboard */,
+				5546D8BA215F0FC200028D01 /* StaticTableViewController.swift */,
 				5546D893215F0F1100028D01 /* Assets.xcassets */,
 				5546D895215F0F1100028D01 /* LaunchScreen.storyboard */,
 				5546D898215F0F1100028D01 /* Info.plist */,
+				5546D8BC215F111D00028D01 /* UIColor+Extension.swift */,
 			);
 			path = StaticTableView;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5546D88F215F0F0E00028D01 /* ViewController.swift in Sources */,
+				5546D8BD215F111D00028D01 /* UIColor+Extension.swift in Sources */,
 				5546D88D215F0F0E00028D01 /* AppDelegate.swift in Sources */,
+				5546D8BB215F0FC200028D01 /* StaticTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

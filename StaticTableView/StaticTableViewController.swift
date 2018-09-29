@@ -46,15 +46,8 @@ class StaticTableViewController: UITableViewController {
     [tipsTextView, feedbackTextView].forEach { textView in
       textView?.backgroundColor = .bigBoyBlue
     }
-    
-    tableView.rowHeight = UITableView.automaticDimension
-    tableView.estimatedRowHeight = 44.0
-    
-    view.subviews.filter{ $0 is UITextView }.forEach { textView in
-      textView.sizeToFit()
-    }
   }
-    
+  
   // MARK: - Table view data source
   
   override func numberOfSections(in tableView: UITableView) -> Int {

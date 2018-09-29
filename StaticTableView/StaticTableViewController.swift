@@ -54,12 +54,7 @@ class StaticTableViewController: UITableViewController {
       textView.sizeToFit()
     }
   }
-  
-  // MARK: -  Custom Sizing Method
-  func resize(_ textView: UITextView, in view: UIView) -> CGFloat {
-    return textView.sizeThatFits(view.frame.size).height
-  }
-  
+    
   // MARK: - Table view data source
   
   override func numberOfSections(in tableView: UITableView) -> Int {
